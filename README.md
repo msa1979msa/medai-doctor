@@ -1,21 +1,50 @@
-<<<<<<< HEAD
-# React + Vite
+# 🧬 MedAI Doctor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AI-powered Multi-Agent Clinical Intelligence System**
 
-Currently, two official plugins are available:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5-purple)](https://vitejs.dev/)
+[![Gemini](https://img.shields.io/badge/Gemini-2.0-orange)](https://deepmind.google/technologies/gemini/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+> **Coming soon!** Deploy to GitHub Pages or Vercel for a live demo.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+| Module | Description |
+|--------|-------------|
+| 🩺 **AI Doctor Chat** | Multi-agent clinical analysis with triage, differential diagnosis, and SOAP notes |
+| 💊 **Drug Database** | 60,000+ medications with AI-powered lookup, interactions, and dosing |
+| 🔬 **Lab Analysis** | Interpret lab results with automatic flagging of abnormalities |
+| 📋 **ICD-10 Codes** | Complete reference with AI-powered clinical breakdowns |
+| 🔒 **HIPAA Ready** | Designed with healthcare compliance in mind |
+| 📊 **Audit Trails** | Track all clinical interactions |
+| 🛡️ **PII Masking** | Automatic patient information protection |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# medai-doctor
-AI-powered multi-agent clinical intelligence system with drug database, lab analysis, ICD-10 coding, and HIPAA-ready compliance
->>>>>>> 689706f565539aff2b996f4e32f2697a3158efb4
+## 🧠 Multi-Agent Architecture
+
+The system uses **5 specialized AI agents** working together:
+
+┌─────────────────────────────────────────────────────────────┐
+│ MEDAI DOCTOR │
+├─────────────────────────────────────────────────────────────┤
+│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ │
+│ │ Triage │ │ Symptom │ │ ICD-10 │ │
+│ │ Agent │ │ Analyst │ │ Coder │ │
+│ └──────────────┘ └──────────────┘ └──────────────┘ │
+│ ┌──────────────┐ ┌──────────────┐ │
+│ │ Lab │ │ Diagnosis │ │
+│ │ Agent │ │ Agent │ │
+│ └──────────────┘ └──────────────┘ │
+├─────────────────────────────────────────────────────────────┤
+│ Google Gemini 2.0 Flash API │
+└─────────────────────────────────────────────────────────────┘
+
+🛡️ Disclaimer
+IMPORTANT: This AI system is for informational purposes only and does NOT replace professional medical advice. Always consult a qualified healthcare provider for medical decisions.
+
+📄 License
+MIT License - see LICENSE file for details
+
